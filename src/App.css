@@ -1,0 +1,57 @@
+body{
+  background-color: black;
+}
+.App{
+  min-height: 100vh;
+  }
+  .text{
+    margin-top: 60px;
+    background-color: white;
+    width: 700px;
+    margin-left: 300px;
+
+  }
+  .search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  }
+  .search-bar{
+  width: 20%;
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  }
+  .search-button{
+  background: blue;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: white;
+  font-size: larger;
+  margin: 0 0 0 10px;
+  border: none;
+  }
+  .border-secondary{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  .search-button:hover {
+  background-color: red ;
+  }
+  .image{
+    border-radius: 50%;
+  }
+  input{
+    width: 400px;
+    height: 30px;
+    outline: none;
+    border-radius: 7px;
+    padding: 24px;
+  }
+  .container{
+    margin-left: 15px;
+  }
+  
